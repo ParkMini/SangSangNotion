@@ -4,6 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <script src="./main.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -12,7 +13,16 @@
         <a href="./index.html">공지 사항</a>
         <a href="./list.html">오늘의 성과</a>
     </header>
-     <form>
+     <form action="http://sangsang.pah.kr/api/{{name}}/" method="post">
+        이름 <input type="text" id="name" name="name">
+        날짜 <input type="date" id="date" name="date">
+        <br>
+        내용 <input type="text" id="content" name="content">
+        <br>
+        <input type="submit" value="업로드" id="Post">
      </form>
+     <div id="history">
+
+     </div>
 </body>
 </html>
