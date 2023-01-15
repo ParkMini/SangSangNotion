@@ -20,7 +20,7 @@ header {
 
 button {
     align-items: right;
-    background-color:#FF0000;
+    background-color:#ff2929;
     color: #FFFFFF;
     border-radius: 3px;
     border-style: none;
@@ -47,4 +47,19 @@ main {
 
 h1 {
     padding: 2%;
+}
+
+.more {
+    font-size: 18px;
+    color: #4f4f4f;
+    text-align: right;
+    margin-left: 91%;
+    display: inline-block;
+    margin-top: 15%;
+}
+
+a:link, a:active {
+    font-size: 18px;
+    color: #4f4f4f;
+    text-decoration: none; 
 }
