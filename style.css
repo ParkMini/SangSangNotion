@@ -14,8 +14,8 @@ body {
 header {
     display: flex;
     background-color: #a6c6ff;
-    height: 4%;
-    font-size: 2.5rem;
+    height: 6vh;
+    font-size: 25px;
     align-items: center;
 }
 
@@ -27,37 +27,36 @@ button {
     border-style: none;
     font-size: 2rem;
     padding: 0.6rem;
-    margin-left: 115rem;
+    margin-left: 132.8vh;
 }
-
 img {
-    margin-left: 2%;
+    margin-left: 3vh;
 }
 
 main {
-    margin-top: 6%;
-    margin-left: 8%;
+    margin-top: 10.5vh;
+    margin-left: 13.3vh;
 }
 
 .list {
-    width: 90%;
-    height: 25%;
+    width: 145vh;
+    height: 37.5vh;
     background-color: #f6f8ff;
     border-radius: 1rem;
 }
 
 h1 {
-    padding: 2%;
-    font-size: 2.5rem;
+    padding: 3.1vh;
+    font-size: 2.2rem;
 }
 
 .more {
     font-size: 1.8rem;
     color: #4f4f4f;
     text-align: right;
-    margin-left: 91%;
+    margin-left: 131.8vh;
     display: inline-block;
-    margin-top: 15%;
+    margin-top: 22vh;
 }
 
 a:link, a:active {
