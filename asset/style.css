@@ -46,6 +46,12 @@ main {
 }
 
 h1 {
+    font-size: 3rem;
+    padding-top: 3vh;
+    text-align: center;
+}
+
+h2 {
     padding: 3.1vh;
     font-size: 2.2rem;
 }
@@ -63,4 +69,12 @@ a:link, a:active {
     font-size: 1.8rem;
     color: #4f4f4f;
     text-decoration: none; 
+}
+
+.lent {
+    margin-left: 8vh;
+    border-radius: 100px;
+    width: 90%;
+    height: 90%;
+    background-color: #FFFFFF;
 }
