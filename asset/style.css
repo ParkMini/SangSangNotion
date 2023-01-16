@@ -29,8 +29,12 @@ button {
     padding: 0.6rem;
     margin-left: 132.8vh;
 }
+
 img {
     margin-left: 3vh;
+    width: 4rem;
+    height: 4rem;
+    filter: grayscale();
 }
 
 main {

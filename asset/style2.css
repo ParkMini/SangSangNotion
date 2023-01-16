@@ -29,8 +29,12 @@ button {
     padding: 0.6rem;
     margin-left: 132.8vh;
 }
+
 img {
     margin-left: 3vh;
+    width: 4rem;
+    height: 4rem;
+    filter: grayscale();
 }
 
 main {
@@ -76,7 +80,7 @@ h2 {
 a, a:link, a:active{
     margin-top: 85.8vh;
     margin-left: 156.6vh;
-    color: #4f4f4fb7;
+    color: #4f4f4f;
     font-size: 2.2rem;
     position: fixed;
     text-decoration: none;
